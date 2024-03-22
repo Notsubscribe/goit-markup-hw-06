@@ -1,0 +1,148 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M708.923 236.308h-472.615c-32.492 0-58.782 26.585-58.782 59.077l-0.295 354.462c0 32.492 26.585 59.077 59.077 59.077h472.615c32.492 0 59.077-26.585 59.077-59.077v-354.462c0-32.492-26.585-59.077-59.077-59.077zM697.108 361.846l-208.837 130.56c-9.452 5.908-21.858 5.908-31.311 0l-208.837-130.56c-7.385-4.726-11.815-12.702-11.815-21.268 0-19.791 21.563-31.606 38.4-21.268l197.908 123.766 197.908-123.766c16.837-10.338 38.4 1.477 38.4 21.268 0 8.566-4.431 16.542-11.815 21.268z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 945,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "email-black-18dp 1"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 32,
+        "id": 0,
+        "name": "email-black-18dp-1",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 7,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 512c94.293 0 170.667-76.373 170.667-170.667s-76.373-170.667-170.667-170.667c-94.293 0-170.667 76.373-170.667 170.667s76.373 170.667 170.667 170.667zM512 597.333c-113.92 0-341.333 57.173-341.333 170.667v42.667c0 23.467 19.2 42.667 42.667 42.667h597.333c23.467 0 42.667-19.2 42.667-42.667v-42.667c0-113.493-227.413-170.667-341.333-170.667z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "person-black-18dp 1"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 27,
+        "id": 0,
+        "name": "person-black-18dp-1",
+        "prevSize": 32
+      },
+      "setIdx": 1,
+      "setId": 6,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 85.333l-1024 480 327.251 101.001 504.749-394.334-383.927 431.629 0.311 0.098-0.384-0.098v235.038l183.522-178.419 232.482 71.753 159.996-746.667z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Frame 3"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 31,
+        "id": 2,
+        "name": "Frame-3",
+        "prevSize": 32
+      },
+      "setIdx": 2,
+      "setId": 5,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M628.322 591.578l-78.43-8.956c-18.833-2.159-37.359 4.326-50.637 17.6l-56.815 56.815c-87.381-44.463-159.016-115.789-203.479-203.477l57.122-57.125c13.277-13.277 19.761-31.803 17.6-50.639l-8.954-77.81c-3.705-31.186-29.951-54.653-61.445-54.653h-53.417c-34.891 0-63.916 29.024-61.754 63.916 16.365 263.692 227.255 474.273 490.634 490.636 34.893 2.163 63.915-26.863 63.915-61.751v-53.419c0.311-31.185-23.155-57.429-54.34-61.137z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 768,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "phone-black-18dp 1"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 30,
+        "id": 0,
+        "name": "phone-black-18dp-1",
+        "prevSize": 32
+      },
+      "setIdx": 2,
+      "setId": 5,
+      "iconIdx": 2
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": false,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "autoHost": true
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "ZTY4NjYzYjViMyMxNzExMTAyNzQ0I2F5S0VxV1pRR1RHZWVobjZjcFFzQTRNNnVXaXZoYjYvRjdnM0E1Tm9CMzJC"
+    }
+  }
+}
