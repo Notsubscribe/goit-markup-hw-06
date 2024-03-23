@@ -589,6 +589,7 @@ background-color: #31d0aa;
         border-radius: 4px;
             width: 165px;
             height: 40px;
+            background: #4d5ae5;
 }
 
 .footer-link-icons:focus {
@@ -604,10 +605,10 @@ background-color: #31d0aa;
 }
 .logo-p {
     margin-right: 120px;
-    display: flex;
+   
 }
 .div-social-media {
-
+margin-right: 80px;
 }
 a {
     text-decoration: none;
