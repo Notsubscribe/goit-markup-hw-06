@@ -568,7 +568,8 @@ background-color: #31d0aa;
 }
 .footer-form {
     display: flex;
-    gap: 8px;
+    gap: 24px;
+    
     
 }
 .footer-form-text {
