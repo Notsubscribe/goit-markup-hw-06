@@ -23,11 +23,24 @@ display: block;
     
 }
 .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
     
+}
+@media screen and (min-width: 1158px) {
+.container {
+        width: 1158px;
+        padding: 0 15px;
+        
+ }  
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+
+    }
 }
 .header {
 
@@ -240,7 +253,13 @@ background-color: #404BBF
     margin-bottom: 8px;
 
 }
+@media screen and (max-width: 1157px) {
+    .features-icon {
+        display: none;
 
+
+    }
+}
 
 
 
@@ -264,32 +283,74 @@ padding: 120px 0;
 
 .features-list {
 display: flex;
-gap: 24px;
+flex-direction: column;
+gap: 72px;
 }
 
-.features-item {
-width: calc((100% - 72px) / 4);
+@media screen and (min-width: 1158px) {
+    .features-list {
+        gap: 24px;
+        flex-direction: row;
+    }
+}
 
+
+.features-item {
+width: 100%;
+
+}
+
+@media screen and (min-width: 1158px) {
+    .features-item {
+    width: calc((100% - 72px * 3) / 4);
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .features-item {
+        width: calc((100% - 72px) / 2);
+
+    }
 }
 
 .features-subtitle {
-font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    text-align: center;
+}
+@media screen and (min-width: 1158px) {
+    .features-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}
+
+media screen and (min-width: 768px) {
+    .features-subtitle {
+        text-align: left;
+    }
 }
 
 .features-text {
-font-weight: 400;
+font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.team {
+@media screen and (min-width: 1158px) {
+    .features-text {
+        font-weight: 400;
+    }
+}
+        .team {
 background-color: #F4F4FD;
 padding: 120px 0;
 
