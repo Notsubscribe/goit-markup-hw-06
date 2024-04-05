@@ -159,20 +159,18 @@ font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
     margin-right: 0;
-    padding: 24px 0;
 }
 
 .address-menu-link {
 display: block;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 24px 0;
 }
 
 
@@ -542,8 +540,6 @@ padding: 96px 0;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
-    display: flex;
-    text-align: center;
     align-items: center;
     justify-content: flex-start;
     gap: 0px;
@@ -582,7 +578,7 @@ display: inline-block;
         font-family: "Raleway", sans-serif;
         margin-bottom: 16px;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
          
         }
 
@@ -666,7 +662,7 @@ background-color: #31d0aa;
     letter-spacing: 0.02em;
     color: #ffffff;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
     
     
@@ -1020,7 +1016,8 @@ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .header-menu-link {
     padding: 0;
-    font-size: 12px;
+    font-size: 16px;
+    padding: 24px 0;
 }
 
 .mobile-menu-icon {
@@ -1110,6 +1107,7 @@ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
      column-gap: 24px;
      row-gap: 72px;
      justify-content: start;
+     padding: 108px;
  }
 
  .div-social-media {
@@ -1122,7 +1120,6 @@ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .footer-link-icons {
-      justify-content: start;
   }
 
   .social-media-text {
