@@ -579,7 +579,7 @@ display: inline-block;
         font-family: "Raleway", sans-serif;
         margin-bottom: 16px;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
             flex-direction: row;
             gap: 0px;
          
@@ -664,9 +664,8 @@ background-color: #31d0aa;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    
+    
     
     
 }
@@ -873,13 +872,12 @@ fill: #ffffff;
  }
 .modal-icon {
     width: 18px;
-    height: 24px;
-    position: absolute;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+        height: 24px;
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-field-com {
     margin-bottom: 16px;
@@ -1058,6 +1056,7 @@ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .mobile-navigation .header-list-item:first-child {
@@ -1066,7 +1065,11 @@ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .header-list-item {
 padding: 40px;
-color: #2e2f42;
+
+}
+
+.mobile-studio {
+ color: #404bbf;
 }
 
 .mobile-navigation .header-list-item:hover,
@@ -1109,6 +1112,22 @@ color: #2e2f42;
 
 .mobile-modal .social {
     justify-content: space-between;
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 40px;
+}
+
+.mobile-modal .social-media-link {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #4d5ae5;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -1148,6 +1167,7 @@ color: #2e2f42;
 
 .address {
     display: flex;
+    font-family: "Roboto", sans-serif;
 }
 
 .address-menu {
