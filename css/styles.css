@@ -810,7 +810,7 @@ border-radius: 4px;
  .modal-icon:focus {
     fill: #4D5AE5;
  }
- .modal-icon {
+ .modal-icons {
     position: absolute;
         left: 16px;
         top: 8px;
