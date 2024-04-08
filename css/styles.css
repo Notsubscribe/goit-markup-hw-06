@@ -964,9 +964,6 @@ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.mobile-overlay {
-    
-}
 
 .mobile-modal {
     display: flex;
@@ -1245,10 +1242,6 @@ background: #fff;
             color: #404bbf;
         }
     
-        .mobile-modal .mobile-header-contacts {
-            margin-top: 168px;
-    
-        }
     
         .mobile-header-contacts {
             font-style: inherit;
